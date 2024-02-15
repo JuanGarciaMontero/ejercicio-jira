@@ -15,7 +15,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(dividir(3, 2), 1.5)
         self.assertEqual(dividir(-1, 1), -1)
         self.assertEqual(dividir(-1, -1), 1)
-        self.assertEqual(dividir(5, 0), 'No se puede dividir por 0')
+        self.assertEqual(dividir(5, 0), 'No se puede dividir por 0.')
 
 
 if __name__ == '__main__':
